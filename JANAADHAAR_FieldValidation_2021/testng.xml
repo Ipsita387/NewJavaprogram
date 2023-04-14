@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.JANAADHAAR.Enrollment.DropdownCheck_BasicFamilyInformation"/>
+      <class name="com.JANAADHAAR.Enrollment.MandatoryCheck_BasicFamilyInformation"/>
+      
+      <class name="com.JANAADHAAR.Enrollment.WhiteSpaceCheck_BasicFamilyInformation"/>
+      <!--<class name="com.JANAADHAAR.Enrollment.FieldValidation_PersonalInformationHoF"/>
+       <class name="com.JANAADHAAR.Enrollment.FieldValidation_FamilyIdentitydocs"/>
+        <class name="com.JANAADHAAR.Enrollment.FieldValidation_ResidentialAddress"/>
+        <class name="com.JANAADHAAR.Enrollment.FieldValidation_FamilyMembPersonalDetails1"/>
+        <class name="com.JANAADHAAR.Enrollment.MandatoryCheck_FamilyMemberDetails"/>-->
+      
+      <class name="com.JANAADHAAR.Enrollment.AlphaNumericCharCheck_BasicFamilyInformation"/>
+      
+      
+      <class name="com.JANAADHAAR.Enrollment.LengthCheck_BasicFamilyInformation"/>
+      <class name="com.JANAADHAAR.Enrollment.SpecialCharCheck_BasicFamilyInformation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

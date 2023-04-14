@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.JANAADHAAR.Enrollment.DropdownCheck_BasicFamilyInformation">
+        <methods>
+          <include name="SelectedDataShouldBeDisplayedForWardNo"/>
+          <include name="closeBrowser"/>
+          <include name="SelectedDataShouldBeDisplayedForConditionOfHouse"/>
+          <include name="SelectedDataShouldBeDisplayedForGasAgency"/>
+          <include name="SelectedDataShouldBeDisplayedForDistrict"/>
+          <include name="openBrowser"/>
+          <include name="SelectedDataShouldBeDisplayedForCategoryOfHouse"/>
+          <include name="SelectedDataShouldBeDisplayedForCity"/>
+          <include name="EnterBasicFamilyInformationScreen"/>
+        </methods>
+      </class> <!-- com.JANAADHAAR.Enrollment.DropdownCheck_BasicFamilyInformation -->
+      <class name="com.JANAADHAAR.Enrollment.MandatoryCheck_BasicFamilyInformation">
+        <methods>
+          <include name="MandatoryCheckForWard"/>
+          <include name="closeBrowser"/>
+          <include name="MandatoryCheckForPincode"/>
+          <include name="openBrowser"/>
+          <include name="EnterBasicFamilyInformationScreen"/>
+          <include name="MandatoryCheckForDistrict"/>
+          <include name="MandatoryCheckForCity"/>
+        </methods>
+      </class> <!-- com.JANAADHAAR.Enrollment.MandatoryCheck_BasicFamilyInformation -->
+      <class name="com.JANAADHAAR.Enrollment.LengthCheck_BasicFamilyInformation">
+        <methods>
+          <include name="MaxLengthCheckForPincode"/>
+          <include name="openBrowser"/>
+          <include name="MaxLengthCheckForTelephoneNo"/>
+          <include name="MaxLengthCheckForBPLNo"/>
+          <include name="MaxLengthCheckForLandmarkEng"/>
+          <include name="MaxLengthCheckForWaterBillNo"/>
+          <include name="MaxLengthCheckForPlaceEng"/>
+          <include name="MaxLengthCheckForStreetEng"/>
+          <include name="closeBrowser"/>
+          <include name="MaxLengthCheckForElectricityBillNo"/>
+          <include name="MaxLengthCheckForDurationOfStay"/>
+          <include name="MaxLengthCheckForHouseNo"/>
+          <include name="MinLengthCheckForTelephoneNo"/>
+          <include name="EnterBasicFamilyInformationScreen"/>
+          <include name="MaxLengthCheckForGasConnectionNo"/>
+        </methods>
+      </class> <!-- com.JANAADHAAR.Enrollment.LengthCheck_BasicFamilyInformation -->
+      <class name="com.JANAADHAAR.Enrollment.WhiteSpaceCheck_BasicFamilyInformation">
+        <methods>
+          <include name="WhiteSpaceCheckLastForBPLNo"/>
+          <include name="EnterBasicFamilyInformationScreen"/>
+          <include name="WhiteSpaceCheckInitialForHouseNo"/>
+          <include name="WhiteSpaceCheckLastForElectricityBillNo"/>
+          <include name="WhiteSpaceCheckLastForStreetEng"/>
+          <include name="WhiteSpaceCheckInitialForElectricityBillNo"/>
+          <include name="openBrowser"/>
+          <include name="WhiteSpaceCheckInitialForPincode"/>
+          <include name="WhiteSpaceCheckLastForHouseNo"/>
+          <include name="WhiteSpaceCheckInitialForLandmarkEng"/>
+          <include name="WhiteSpaceCheckInitialForPlaceEng"/>
+          <include name="WhiteSpaceCheckLastForPlaceEng"/>
+          <include name="WhiteSpaceCheckInitialForGasConnectionNo"/>
+          <include name="WhiteSpaceCheckInitialForTelephoneNo"/>
+          <include name="WhiteSpaceCheckInitialForBPLNo"/>
+          <include name="WhiteSpaceCheckInitialForStreetEng"/>
+          <include name="WhiteSpaceCheckInitialForDurationOfStay"/>
+          <include name="WhiteSpaceCheckLastForDurationOfStay"/>
+          <include name="WhiteSpaceCheckLastForGasConnectionNo"/>
+          <include name="WhiteSpaceCheckLastForTelephoneNo"/>
+          <include name="WhiteSpaceCheckLastForPincode"/>
+          <include name="WhiteSpaceCheckLastForWaterBillNo"/>
+          <include name="closeBrowser"/>
+          <include name="WhiteSpaceCheckInitialForWaterBillNo"/>
+          <include name="WhiteSpaceCheckLastForLandmarkEng"/>
+        </methods>
+      </class> <!-- com.JANAADHAAR.Enrollment.WhiteSpaceCheck_BasicFamilyInformation -->
+      <class name="com.JANAADHAAR.Enrollment.SpecialCharCheck_BasicFamilyInformation">
+        <methods>
+          <include name="SpecialCharCheckForGasConnectionNo"/>
+          <include name="SpecialCharCheckForDurationOfStay"/>
+          <include name="SpecialCharCheckForStreetEng"/>
+          <include name="openBrowser"/>
+          <include name="SpecialCharCheckForPlaceEng"/>
+          <include name="SpecialCharCheckForTelephoneNo"/>
+          <include name="SpecialCharCheckForWaterBillNo"/>
+          <include name="SpecialCharCheckForElectricityBillNo"/>
+          <include name="SpecialCharCheckForLandmarkEng"/>
+          <include name="EnterBasicFamilyInformationScreen"/>
+          <include name="SpecialCharCheckForHouseNo"/>
+          <include name="SpecialCharCheckForBPLNo"/>
+          <include name="closeBrowser"/>
+          <include name="SpecialCharCheckForPincode"/>
+        </methods>
+      </class> <!-- com.JANAADHAAR.Enrollment.SpecialCharCheck_BasicFamilyInformation -->
+      <class name="com.JANAADHAAR.Enrollment.AlphaNumericCharCheck_BasicFamilyInformation">
+        <methods>
+          <include name="AlphabetsCharCheckForTelephoneNo"/>
+          <include name="AlphaNumericCharCheckForBPLNo"/>
+          <include name="AlphabetsCharCheckForDurationOfStay"/>
+          <include name="EnterBasicFamilyInformationScreen"/>
+          <include name="openBrowser"/>
+          <include name="AlphaNumericCharCheckForHouseNo"/>
+          <include name="AlphanumericCharCheckForElectricityBillNo"/>
+          <include name="AlphabetsCharCheckForPincode"/>
+          <include name="AlphaNumericCharCheckForWaterBillNo"/>
+          <include name="AlphaNumericCharCheckForGasConnectionNo"/>
+          <include name="AlphaNumericCharCheckForLandmarkEng"/>
+          <include name="closeBrowser"/>
+          <include name="AlphaNumericCharCheckForStreetEng"/>
+          <include name="AlphaNumericCharCheckForPlaceEng"/>
+        </methods>
+      </class> <!-- com.JANAADHAAR.Enrollment.AlphaNumericCharCheck_BasicFamilyInformation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
